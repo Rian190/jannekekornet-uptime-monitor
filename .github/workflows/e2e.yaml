@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '20' # Specify the Node.js version you need
 
-      - name: Install dependencies
+      - name: Install dependencies and run cypress
         run: |
-          - npm install
-          - npx cypress run
+           npm install
+           npx cypress run
